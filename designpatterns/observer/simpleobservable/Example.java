@@ -2,11 +2,11 @@ package designpatterns.observer.simpleobservable;
 
 public class Example {
 
-	public static void main(String[] args) {
-		SimpleSubject simpleSubject = new SimpleSubject();
-	
-		SimpleObserver simpleObserver = new SimpleObserver(simpleSubject);
+    public static void main(String[] args) {
+        SimpleSubject simpleSubject = new SimpleSubject();
 
-		simpleSubject.setValue(80);
-	}
+        SimpleObserver simpleObserver = new SimpleObserver(simpleSubject);
+
+        simpleSubject.setValue(80);
+    }
 }

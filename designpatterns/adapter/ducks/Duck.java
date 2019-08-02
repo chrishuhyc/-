@@ -1,6 +1,7 @@
 package designpatterns.adapter.ducks;
 
 public interface Duck {
-	public void quack();
-	public void fly();
+    public void quack();
+
+    public void fly();
 }

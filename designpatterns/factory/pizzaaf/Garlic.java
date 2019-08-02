@@ -2,7 +2,7 @@ package designpatterns.factory.pizzaaf;
 
 public class Garlic implements Veggies {
 
-	public String toString() {
-		return "Garlic";
-	}
+    public String toString() {
+        return "Garlic";
+    }
 }
